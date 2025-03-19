@@ -1,0 +1,8 @@
+# Tipo do certificado solicitado.
+TIPO=SERVER-WEB
+MUNICIPIO=[Substituir pelo nome do município da pessoa jurídica]
+ORGANIZACAO=[Subistituir pelo nome da organização que hospeda o servidor web]
+DEPARTAMENTO=[Subistituir pela uniadade da origanização responsável pelo servidor web]
+EMAIL=[Substituir pelo Email de contato da pessoal juridica]
+DOMINIO_WEB=[Nome do domínio, exemplo www.meuapp.organizacao.com.br]
+HOST_NAME=[Nome do host (DNS) que hospedará o domínio.]

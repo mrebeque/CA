@@ -1,0 +1,8 @@
+# Tipo do certificado solicitado.
+TIPO=CA
+
+MUNICIPIO=[Substituir pelo nome do município da pessoa jurídica]
+ORGANIZACAO=[Subistituir pela razão social da pessoa jurídica]
+DEPARTAMENTO=[Subistituir pela unidade da origanização que fez o pedido do certificado]
+NOME_CA=[Subistituir pela nome da CA]
+EMAIL=[Substituir pelo Email de contato da pessoal responsável pela CA]

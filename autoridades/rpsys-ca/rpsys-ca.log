@@ -1,0 +1,72 @@
+Inicio da criação do certificado: rpsys-ca 
+removido '/work/ca/sefazrj/CA/rpsys-ca/rpsys-ca.key'
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            07:ec:22:a6:64:f9:0c:e8:01:2d:a8:0a:a6:26:2b:30:8f:cd:22:d9
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C = BR, ST = RJ, L = NITEROI, O = REBEQUE PEREIRA SYSTEMS, OU = T.I., CN = RPSYS-CA, emailAddress = ADMIN@RPSYS.COM.BR
+        Validity
+            Not Before: Mar 18 23:20:16 2025 GMT
+            Not After : Mar 16 23:20:16 2035 GMT
+        Subject: C = BR, ST = RJ, L = NITEROI, O = REBEQUE PEREIRA SYSTEMS, OU = T.I., CN = RPSYS-CA, emailAddress = ADMIN@RPSYS.COM.BR
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:b6:bd:d2:90:52:47:55:4c:ee:95:ae:4e:15:e9:
+                    f7:7a:ae:70:bf:b1:dd:05:73:22:6f:c9:70:e6:82:
+                    a1:48:24:53:68:cc:a7:ac:e1:17:b7:9e:a1:8c:5c:
+                    fe:8f:6b:c5:80:85:15:db:3c:ae:3d:21:0b:8b:78:
+                    28:e5:15:8d:e2:e0:f8:72:5c:c5:12:63:61:2b:8e:
+                    9b:46:97:c4:8f:0f:08:71:0d:ce:72:d3:11:95:38:
+                    35:42:5c:af:cf:2d:a8:27:27:e4:41:e2:c2:a7:66:
+                    f3:cc:bc:c5:6e:cc:98:54:d6:6c:04:c5:18:eb:93:
+                    1b:24:be:66:1b:75:ee:63:d1:7f:85:c1:30:b1:82:
+                    3f:a5:3b:65:b6:e0:be:24:ae:32:8f:8a:db:f4:61:
+                    b2:bd:39:11:83:fb:26:0c:d1:75:a6:03:50:d7:07:
+                    b0:dc:83:87:31:e6:43:5f:92:d2:ee:57:a8:c2:1d:
+                    b1:6c:e8:ff:95:1d:9b:2b:65:67:ca:9b:e7:fa:7b:
+                    14:c0:97:eb:a6:53:13:a8:87:bc:fb:ae:2d:43:17:
+                    a5:d0:72:81:a2:10:1f:7b:d0:a0:ad:0b:5f:a7:c2:
+                    0b:d0:4e:3c:32:bb:15:7c:f6:ae:d4:a7:8e:c7:33:
+                    40:9f:85:0a:0b:42:cf:1e:80:d8:81:a0:42:7b:d3:
+                    81:cf
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Subject Key Identifier: 
+                74:BE:BB:11:18:BD:54:ED:91:C3:7E:EB:BD:24:7A:21:57:32:BF:F2
+            X509v3 Authority Key Identifier: 
+                keyid:74:BE:BB:11:18:BD:54:ED:91:C3:7E:EB:BD:24:7A:21:57:32:BF:F2
+                DirName:/C=BR/ST=RJ/L=NITEROI/O=REBEQUE PEREIRA SYSTEMS/OU=T.I./CN=RPSYS-CA/emailAddress=ADMIN@RPSYS.COM.BR
+                serial:07:EC:22:A6:64:F9:0C:E8:01:2D:A8:0A:A6:26:2B:30:8F:CD:22:D9
+            X509v3 Basic Constraints: critical
+                CA:TRUE, pathlen:3
+            X509v3 Key Usage: critical
+                Certificate Sign, CRL Sign
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication, TLS Web Client Authentication
+            X509v3 CRL Distribution Points: 
+                Full Name:
+                  URI:http://icp-brasil.certisign.com.br/repositorio/lcr/ACCACBRFBG2/LatestCRL.crl
+    Signature Algorithm: sha256WithRSAEncryption
+    Signature Value:
+        4f:47:66:a4:c7:3b:7c:22:77:cd:04:2d:4a:5a:a0:7c:bd:64:
+        bf:d2:1e:36:6e:8c:91:5d:b4:ce:b3:94:c4:bf:fc:2b:2f:5a:
+        87:1b:c6:d0:ea:89:03:04:10:44:42:f4:4d:37:0e:43:2f:3a:
+        d5:0a:6d:20:4b:c4:26:ef:c8:3f:29:75:72:0a:ed:37:ef:41:
+        05:b9:4c:92:f9:1b:8f:98:76:7e:3d:b1:28:3c:4d:96:7d:ac:
+        7d:56:9d:f9:20:7c:c8:8f:26:85:35:e4:87:c1:d0:8d:f7:27:
+        34:be:c0:2a:cf:83:0f:e6:01:8d:66:fb:12:57:ea:85:2e:da:
+        d6:01:a4:c7:c9:4c:63:ee:5c:57:ec:9d:86:ae:24:82:bf:e9:
+        c0:f3:fe:ee:d9:46:f5:c8:fb:94:d5:03:03:d9:28:14:e3:51:
+        b8:83:24:6d:38:5a:34:00:5c:6e:1d:e4:b0:87:49:e7:e8:85:
+        5f:9e:64:de:a9:a6:79:cb:a7:25:1d:29:cd:5c:ae:b9:71:15:
+        39:1a:c0:16:24:2b:6e:41:d1:91:2f:7d:a5:67:0f:bf:cf:0c:
+        a6:b7:92:42:dd:59:72:36:f5:59:bb:c8:ed:53:61:5e:3e:97:
+        93:3b:4c:23:7e:c4:41:0b:19:a0:14:a0:a9:c1:58:86:2b:51:
+        55:e9:8f:a0
+MD5(stdin)= 1107b013c2c09c1d6033e7ceb8b83887
+MD5(stdin)= 1107b013c2c09c1d6033e7ceb8b83887
+Término da criação do certificado: rpsys-ca 

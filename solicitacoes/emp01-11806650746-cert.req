@@ -1,0 +1,30 @@
+# Tipo do certificado solicitado.
+TIPO=ECNPJ
+
+MUNICIPIO=Rio de Janeiro
+RAZAO_SOCIAL=Empresa 01 Ltda.
+DEPARTAMENTO=T.I.
+
+# Para certificados utilizados no SSA o  CNPJ precisa de 14 digitos sem mascara.
+CNPJ=35280574000145
+
+EMAIL=jdoe@emp01.com .br
+
+# Para certificados utilizados no SSA o  INSS da PJ precisa de 12 digitos sem mascara.
+INSS=123456789012
+
+# Para certificados utilizados no SSA  CPF do Responsável precisa de 11 digitos sem mascara.
+CPF_RESP=11806650746
+
+# Para certificados utilizados no SSA  a data de nascimento do Responsável precisa de 8 digitos (ddmmyyyy) sem mascara.
+DT_NASCIMENTO_RESP=07072007
+
+# Para certificados utilizados no SSA o  RG do Responsável precisa de 15 digitos sem mascara.
+RG_RESP=123456789012345
+
+ORGAO_RG_RESP=DETRAN
+
+UF_RG_RESP=RJ
+
+# Para certificados utilizados no SSA o  NIS do Responsável precisa de 11 digitos sem mascara.
+NIS_RESP=12345678901

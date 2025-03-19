@@ -1,0 +1,24 @@
+# Tipo do certificado solicitado.
+TIPO=ECPF
+MUNICIPIO=[Substituir pelo nome do município da pessoa fisica]
+NOME=[Subistituir pela razão social da pessoa fisica]
+
+
+# Para certificados utilizados no SSA o CPF  precisa de 11 digitos sem mascara.de
+CPF=[Substituir pelo CPF do responsável pelo certificado da pessoal fisica]
+
+EMAIL=[Substituir pelo Email de contato da pessoal fisica]
+
+# Subistituir pela data de nascimento da pessoal física no formato yyyymmdd sem mascara.
+DT_NASCIMENTO=07072007
+
+# Para certificados utilizados no SSA o RG  precisa de 15 digitos sem mascara.
+RG=[Substituir pelo RG da pessoal fisica]
+ORGAO_RG=[Substituir pela SIGLA do órgão emissor do RG da pessoal fisica]
+UF_RG=Substituir pela UF do órgão emissor do RG da pessoal fisica]
+
+#NUMERO DO SEGURO SOCIAL (PIS / PASEP) da pessoal fisica precisa de 11 digitos sem mascara.
+NIS=[Substituir pelo NIS (PIS/PASEP) da pessoal fisica
+
+# NUMERO DO BENEFICIO (INSS) da pessoal fisica precisa de 12 digitos sem mascara.
+INSS=[substituir pelo INSS da pessoal fisica]

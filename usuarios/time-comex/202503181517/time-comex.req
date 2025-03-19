@@ -1,0 +1,8 @@
+# Tipo do certificado solicitado.
+TIPO=SERVER-WEB
+MUNICIPIO=RIO DE JANEIRO
+ORGANIZACAO=SEFAZ-RJ
+DEPARTAMENTO=SUPSIS
+EMAIL=timecomex@fazenda.rj.gov.br
+DOMINIO_WEB=www.time-comex.sefnet.rj
+HOST_NAME=timecomex.sefnet.rj

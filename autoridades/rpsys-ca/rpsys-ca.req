@@ -1,0 +1,8 @@
+# Tipo do certificado solicitado.
+TIPO=CA
+
+MUNICIPIO=Niteroi
+ORGANIZACAO=Rebeque Pereira Systems
+DEPARTAMENTO=T.I.
+NOME_CA=RPSYS-CA
+EMAIL=admin@rpsys.com.br

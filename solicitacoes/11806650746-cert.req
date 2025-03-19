@@ -1,0 +1,20 @@
+# Tipo do certificado solicitado.
+TIPO=ECPF
+MUNICIPIO=Rio de Janeiro
+NOME=Jhon Nobody
+
+# Para certificados utilizados no SSA o CPF  precisa de 11 digitos sem mascara.
+CPF=11806650746
+EMAIL=jnobody@emp01.com.br
+DT_NASCIMENTO=07072007
+
+# Para certificados utilizados no SSA o RG  precisa de 15 digitos sem mascara.
+RG=123456789012345
+ORGAO_RG=DETRAN
+UF_RG=RJ
+
+#NUMERO DO SEGURO SOCIAL (PIS / PASEP)
+NIS=12345678901
+
+# NUMERO DO BENEFICIO 
+INSS=123456789012

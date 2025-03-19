@@ -1,0 +1,72 @@
+Inicio da criação do certificado: emp01-11806650746-cert 
+/work/ca/sefazrj/usuarios/emp01-11806650746-cert/202503171846/emp01-11806650746-cert.crt: OK
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            2f:b2:f2:d0:0c:e3:9b:34:f5:f8:86:77:e5:28:7c:51:41:ea:19:e2
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C = BR, ST = Rio de Janeiro, L = Rio de Janeiro, O = SEFAZ-RJ, OU = SubTIC, CN = SupInfra - SefazRJ, emailAddress = supinfra@fazenda.rj.gov.br
+        Validity
+            Not Before: Mar 17 21:46:42 2025 GMT
+            Not After : Mar 17 21:46:42 2026 GMT
+        Subject: C = BR, ST = RJ, L = RIO DE JANEIRO, O = EMPRESA 01 LTDA., OU = T.I., CN = 35280574000145, emailAddress = JDOE@EMP01.COM .BR
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:9d:20:20:14:2f:62:de:05:4c:5d:91:28:cd:79:
+                    cf:c8:e0:ed:7c:1c:08:a3:aa:28:75:ed:b6:8e:bb:
+                    95:62:58:93:0c:06:a2:35:0c:bb:80:b1:37:b4:f1:
+                    7b:55:b2:19:8c:94:34:4d:17:16:46:b1:f0:2e:5f:
+                    4b:b2:42:48:cf:b5:0a:46:95:23:02:25:cc:9d:ff:
+                    36:7c:18:8d:15:a9:c4:d1:96:fd:91:2e:da:a0:4e:
+                    cd:3e:be:99:f9:95:35:ca:7c:df:20:91:5c:1f:c1:
+                    eb:8a:dc:ab:18:2a:4f:62:40:a7:4f:34:20:88:b6:
+                    2b:ed:e8:0c:59:c5:4e:dc:6c:c8:b1:41:34:cb:61:
+                    7f:1a:17:53:03:45:9c:cb:ae:4e:0b:b9:34:b0:9b:
+                    1e:d2:69:27:e1:99:21:e1:ff:4d:23:d9:d0:cf:7f:
+                    e1:c0:e8:ad:de:95:ec:3f:98:d8:28:a4:4e:d6:ac:
+                    aa:4c:44:3e:ff:48:05:4a:fb:26:01:56:ff:fe:f2:
+                    8a:74:95:ac:6d:a3:ab:bf:6c:37:38:7a:7c:28:1d:
+                    f2:1e:78:83:11:74:b4:d6:5d:7f:55:ff:20:1c:f0:
+                    b6:e2:8c:7d:c1:c6:74:e0:f9:d9:d7:84:12:a6:b5:
+                    2b:12:c7:06:74:b3:2d:16:47:b9:24:d9:5f:e2:e6:
+                    ba:7d
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Subject Key Identifier: 
+                15:40:BD:74:0A:56:40:5D:57:72:BD:2D:C9:42:4B:94:AB:36:28:8F
+            X509v3 Basic Constraints: critical
+                CA:FALSE
+            X509v3 Key Usage: 
+                Digital Signature, Non Repudiation, Key Encipherment, Data Encipherment
+            X509v3 Extended Key Usage: 
+                TLS Web Client Authentication, E-mail Protection
+            X509v3 CRL Distribution Points: 
+                Full Name:
+                  URI:http://icp-brasil.certisign.com.br/repositorio/lcr/ACCACBRFBG2/LatestCRL.crl
+            X509v3 Subject Alternative Name: 
+                othername: 2.16.76.1.3.1::070720071180665074612345678901123456789012345RJ, othername: 2.16.76.1.3.3::07072007, othername: 2.16.76.1.3.5::123456789012345, othername: 2.16.76.1.3.6::DETRAN, othername: 2.16.76.1.3.7::RJ, othername: 2.16.76.1.3.8::123456789012
+            X509v3 Authority Key Identifier: 
+                F9:39:85:78:32:F8:00:F9:D3:26:21:FE:EE:B2:DE:0F:22:54:8E:48
+    Signature Algorithm: sha256WithRSAEncryption
+    Signature Value:
+        29:7a:32:b1:42:97:75:5b:89:d0:27:2e:4a:b6:fe:f6:3c:92:
+        1f:86:a7:7d:f7:0f:dc:e1:bf:b0:ab:49:4a:48:6e:c2:45:03:
+        9c:ec:0e:36:d4:8a:dc:9e:f9:3f:ac:1c:8c:27:98:8e:22:cc:
+        be:1d:3d:5a:af:cc:fb:79:e1:15:7e:a0:d4:fb:47:3b:d5:1c:
+        d6:fa:3d:f1:3a:21:2c:76:1e:52:8a:f6:d8:c6:df:18:50:15:
+        37:3f:2f:e5:7d:67:e8:75:5a:4d:ac:f3:4b:f0:7d:71:e0:2d:
+        4c:07:55:0e:d9:96:21:7b:87:d4:3b:8f:e5:cd:48:99:4b:6b:
+        46:33:d9:2d:ae:c9:5d:4e:78:59:bc:e9:61:e8:e2:f8:d2:5e:
+        e9:51:8b:53:6b:e7:d5:ca:22:df:d6:b3:5e:6f:89:94:08:7e:
+        45:9b:ae:94:f1:fd:ca:6b:87:10:c3:c7:86:41:f4:1b:da:24:
+        25:0c:56:5b:52:cf:1c:49:0b:7a:cb:67:5c:13:65:28:03:73:
+        a1:67:31:56:c7:40:af:aa:9d:88:28:92:e9:6c:4d:41:d5:60:
+        b7:c8:1b:48:47:b9:4d:55:66:41:78:54:3f:67:1a:b9:bc:2b:
+        af:17:6e:c2:99:21:b7:b0:a2:6c:23:e8:6e:c3:5c:1d:c0:b1:
+        3b:c0:39:57
+MD5(stdin)= 5931073a20a28cf7eb1ee758725572bf
+MD5(stdin)= 5931073a20a28cf7eb1ee758725572bf
+Término da criação do certificado: emp01-11806650746-cert 

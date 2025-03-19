@@ -1,0 +1,72 @@
+Inicio da criação do certificado: time-comex 
+/work/ca/sefazrj/usuarios/time-comex/202503181429/time-comex.crt: OK
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            46:76:66:5d:64:c5:84:78:31:5e:e1:c6:ce:08:3f:f0:ec:76:0c:1a
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C = BR, ST = Rio de Janeiro, L = Rio de Janeiro, O = SEFAZ-RJ, OU = SubTIC, CN = SupInfra - SefazRJ, emailAddress = supinfra@fazenda.rj.gov.br
+        Validity
+            Not Before: Mar 18 17:29:14 2025 GMT
+            Not After : Mar 18 17:29:14 2026 GMT
+        Subject: C = BR, ST = RJ, L = RIO DE JANEIRO, O = SEFAZ-RJ, OU = SUPSIS, CN = WWW.TIME-COMEX.SEFNET.RJ, emailAddress = TIMECOMEX@FAZENDA.RJ.GOV.BR
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:af:61:fa:02:5b:27:96:60:be:15:1e:79:88:f8:
+                    31:fc:28:c1:67:ef:01:a3:d7:73:17:21:1e:8a:e9:
+                    e6:b2:22:71:a4:1c:3f:46:85:66:5b:c9:16:e6:e8:
+                    b2:0c:8e:88:c4:21:2d:2f:5a:2f:e5:62:76:01:fb:
+                    d5:42:59:af:ec:ff:97:17:b8:50:72:01:d8:7d:31:
+                    f3:0b:06:1c:44:b1:4d:12:e8:84:e5:96:c1:a2:58:
+                    c0:65:27:61:c7:01:a4:5f:ee:bc:46:3c:63:c6:1f:
+                    8b:0f:a1:e2:10:25:88:68:11:23:8d:c3:54:f2:6d:
+                    e0:18:74:4b:49:f5:19:9b:af:46:4b:4e:e4:64:07:
+                    f0:35:0b:1e:f8:ab:7a:18:20:2a:28:a8:cd:4d:9d:
+                    b4:17:38:8d:d8:aa:d6:9c:dd:f7:b7:51:21:e1:22:
+                    ca:2f:01:ad:62:5b:29:a6:a0:ba:d6:f3:5a:a7:b5:
+                    e6:cb:5d:f2:46:95:a4:01:9b:cd:44:1a:68:44:6b:
+                    03:37:e0:fe:5f:a3:86:05:05:fd:b4:7f:f5:56:75:
+                    2c:3b:56:db:8a:ce:dd:77:84:46:a3:4e:d1:7e:9b:
+                    51:ec:f1:b1:40:b8:b2:b2:a8:c0:23:39:6b:c5:4e:
+                    50:8c:fb:e5:d6:00:10:70:b3:9a:2e:37:83:9a:00:
+                    e3:ed
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Subject Key Identifier: 
+                EF:5F:71:92:76:90:4E:82:97:07:CF:08:FF:B1:66:BF:11:14:2E:BC
+            X509v3 Basic Constraints: critical
+                CA:FALSE
+            X509v3 Key Usage: 
+                Digital Signature, Key Encipherment
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication, TLS Web Client Authentication
+            X509v3 CRL Distribution Points: 
+                Full Name:
+                  URI:http://icp-brasil.certisign.com.br/repositorio/lcr/ACCACBRFBG2/LatestCRL.crl
+            X509v3 Subject Alternative Name: 
+                DNS:WWW.TIME-COMEX.SEFNET.RJ, DNS:TIMECOMEX.SEFNET.RJ
+            X509v3 Authority Key Identifier: 
+                F9:39:85:78:32:F8:00:F9:D3:26:21:FE:EE:B2:DE:0F:22:54:8E:48
+    Signature Algorithm: sha256WithRSAEncryption
+    Signature Value:
+        8d:11:64:7b:5d:ab:d5:f7:27:72:1d:b3:e4:8b:cc:af:5d:0c:
+        79:b6:4d:9d:d8:6f:fd:66:b6:f9:20:b5:4f:88:14:52:0d:5b:
+        c8:e3:0e:20:5b:93:a0:02:50:09:85:32:fc:65:f4:1c:60:c8:
+        31:b2:b6:24:66:3f:fa:25:3e:63:03:5d:47:4a:8a:9f:37:56:
+        44:c1:75:e0:8e:60:cb:2b:87:e4:c2:c7:bb:63:5b:d4:b9:2b:
+        c3:12:39:96:24:38:87:f8:5a:1d:f3:45:2d:2f:7e:9d:24:ab:
+        55:10:10:97:e9:e0:6c:6c:4e:53:08:92:2d:fd:69:ef:d0:75:
+        35:18:68:51:96:9b:65:47:9d:e6:3e:06:51:c3:cd:c7:2e:cb:
+        84:a6:65:d3:ab:b8:3b:20:1e:d8:a8:d0:6d:e0:fd:b8:4c:17:
+        5d:c0:41:30:26:59:6b:af:95:c7:b8:73:75:11:e3:14:c3:5f:
+        8e:49:22:af:85:35:75:35:42:3f:e2:38:f6:29:e6:18:33:d9:
+        9c:57:61:7c:26:42:81:c3:0f:16:d4:66:a8:e0:7c:70:4f:83:
+        f5:48:01:f1:43:f7:d7:fb:bb:a5:8d:d8:d9:99:10:cd:b9:9d:
+        dc:b1:72:d1:a7:21:0a:2a:51:83:e0:e1:4a:af:6b:3c:b1:4b:
+        e5:c5:d1:b9
+MD5(stdin)= 167be22f8062f8d76a22c0bdbf6e810e
+MD5(stdin)= 167be22f8062f8d76a22c0bdbf6e810e
+Término da criação do certificado: time-comex 

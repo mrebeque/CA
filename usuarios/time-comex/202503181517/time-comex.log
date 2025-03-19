@@ -1,0 +1,76 @@
+Inicio da criação do certificado: time-comex 
+/work/ca/sefazrj/usuarios/time-comex/202503181517/time-comex.crt: OK
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            30:66:98:ff:29:62:0a:b5:de:fa:a5:39:f7:87:5d:23:04:c8:c4:f7
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C = BR, ST = Rio de Janeiro, L = Rio de Janeiro, O = SEFAZ-RJ, OU = SubTIC, CN = SupInfra - SefazRJ, emailAddress = supinfra@fazenda.rj.gov.br
+        Validity
+            Not Before: Mar 18 18:17:00 2025 GMT
+            Not After : Mar 18 18:17:00 2026 GMT
+        Subject: C = BR, ST = RJ, L = RIO DE JANEIRO, O = SEFAZ-RJ, OU = SUPSIS, CN = WWW.TIME-COMEX.SEFNET.RJ, emailAddress = TIMECOMEX@FAZENDA.RJ.GOV.BR
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:be:fc:13:ff:7f:ab:9b:72:40:82:8e:e1:9b:7d:
+                    60:cd:dd:41:f3:c1:78:36:ad:55:44:92:90:39:04:
+                    e8:11:d5:86:b6:6d:c9:87:8a:4c:d5:64:1c:26:7d:
+                    c3:48:0b:dd:8c:2a:e1:17:8d:fc:f9:32:39:40:d9:
+                    f0:a8:f7:4e:53:f2:7c:62:80:88:7b:10:0d:64:ae:
+                    bb:8c:e1:1f:85:eb:88:75:71:2c:f3:a4:45:79:26:
+                    66:c4:e6:9f:9f:eb:c7:50:2f:62:b5:55:a6:48:ad:
+                    26:8e:69:63:5b:23:51:c2:7a:fc:00:b6:97:d3:9b:
+                    31:14:40:c1:b2:b2:b4:f1:b3:b9:a4:ef:7e:62:28:
+                    e4:9f:54:38:67:f9:a7:71:1c:ff:51:ff:08:62:1d:
+                    79:f6:b1:26:ab:52:49:87:e3:a2:b8:99:65:ef:a1:
+                    1c:e8:5c:f8:70:a0:ec:c9:a0:da:6b:54:3f:f8:fa:
+                    ec:64:50:ad:68:82:97:8c:19:88:36:38:6b:c9:0c:
+                    bc:b2:7b:bb:96:da:ad:43:4b:32:3e:53:81:91:aa:
+                    cc:3f:33:df:72:cf:fd:90:cf:86:ba:30:53:13:82:
+                    ca:78:3e:dd:12:c8:54:02:47:eb:59:62:b1:14:f4:
+                    91:43:a1:26:48:94:df:19:1a:4e:db:2b:61:3b:81:
+                    7a:95
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            Netscape Comment: 
+                Certificado gerado para o Server WWW.TIME-COMEX.SEFNET.RJ
+            Netscape Cert Type: 
+                SSL Server
+            X509v3 Subject Key Identifier: 
+                9E:E3:E1:F7:01:C2:8D:FF:1E:8F:BD:9E:E5:82:AC:35:AC:E4:8E:A4
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication
+            X509v3 Basic Constraints: critical
+                CA:FALSE
+            X509v3 Key Usage: 
+                Digital Signature, Non Repudiation, Key Encipherment, Data Encipherment, Key Agreement
+            X509v3 CRL Distribution Points: 
+                Full Name:
+                  URI:http://icp-brasil.certisign.com.br/repositorio/lcr/ACCACBRFBG2/LatestCRL.crl
+            X509v3 Subject Alternative Name: 
+                DNS:WWW.TIME-COMEX.SEFNET.RJ, DNS:TIMECOMEX.SEFNET.RJ
+            X509v3 Authority Key Identifier: 
+                F9:39:85:78:32:F8:00:F9:D3:26:21:FE:EE:B2:DE:0F:22:54:8E:48
+    Signature Algorithm: sha256WithRSAEncryption
+    Signature Value:
+        b2:1f:56:59:0f:f7:c1:99:95:b8:f8:6b:9b:c4:45:08:09:d2:
+        92:fb:af:5c:ef:01:07:83:02:73:a6:1e:ea:5f:3b:c8:dd:0c:
+        31:40:d4:22:0b:d2:63:b9:70:47:eb:17:dc:20:f1:70:02:3b:
+        40:22:9c:2f:d6:3e:be:f6:62:2b:8a:9a:d2:8b:da:e2:de:52:
+        e1:57:fa:3a:b4:35:07:6a:63:49:33:12:3a:d8:1a:73:61:de:
+        3e:5b:2e:dc:cb:9c:d5:28:29:eb:46:ff:46:9f:d7:53:dc:e8:
+        07:62:9c:36:c0:fe:29:d3:5e:11:a5:81:8f:42:a6:70:8e:60:
+        c1:04:fa:6d:af:45:07:ac:07:08:69:b2:23:81:42:b0:ba:f7:
+        63:b0:34:8e:4a:19:66:d7:ab:9d:ab:20:5b:ac:a5:43:ee:a4:
+        6e:f6:39:1b:32:99:4e:1c:ff:49:84:9f:6e:ea:84:6c:da:c2:
+        c7:67:bc:ce:51:c3:a2:13:5f:d8:df:df:4b:c6:88:65:a3:94:
+        1a:9c:fa:ae:f4:8b:b5:21:62:3f:3c:6b:11:c2:cf:8b:72:2e:
+        65:e8:b6:7a:ee:ae:e3:22:ab:84:86:52:be:81:37:52:c7:24:
+        42:c2:2d:e4:40:c6:03:cf:03:5d:43:40:c0:6b:e0:73:f7:4d:
+        42:18:4b:21
+MD5(stdin)= ac36c145fe264bae448e8d4de5cacf9e
+MD5(stdin)= ac36c145fe264bae448e8d4de5cacf9e
+Término da criação do certificado: time-comex 

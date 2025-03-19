@@ -1,0 +1,29 @@
+# Tipo do certificado solicitado.
+TIPO=ECNPJ
+
+MUNICIPIO=[Substituir pelo nome do município da pessoa jurídica]
+RAZAO_SOCIAL=[Subistituir pela razão social da pessoa jurídica]
+DEPARTAMENTO=[Subistituir pela uniadade da origanização que fez o pedido do certificado]
+
+# Para certificados utilizados no SSA o  CNPJ precisa de 14 digitos sem mascara.
+CNPJ=[Subistituir pelo CNPJ da pessoal juridica]
+EMAIL=[Substituir pelo Email de contato da pessoal juridica]
+
+# Para certificados utilizados no SSA o  INSS da PJ precisa de 12 digitos sem mascara.
+INSS=[substituir pelo INSS da pessoal juridica]
+
+# Para certificados utilizados no SSA  CPF do Responsável precisa de 11 digitos sem mascara.
+CPF_RESP=[Substituir pelo CPF do responsável pelo certificado da pessoal juridica]
+
+# Para certificados utilizados no SSA  a data de nascimento do Responsável precisa de 8 digitos (ddmmyyyy) sem mascara.
+DT_NASCIMENTO_RESP=[Substituir pela data de nascimento do responsável pelo certificado da pessoal juridica se não existir preencher com oito zeros.] 
+
+# Para certificados utilizados no SSA o  RG do Responsável precisa de 15 digitos sem mascara.
+RG_RESP=[Substituir pelo RG do responsável pelo certificado da pessoal juridica]
+
+ORGAO_RG_RESP=[Substituir pela SIGLA do órgão emissor do RG do responsável]
+UF_RG_RESP=[Substituir pela UF do órgão emissor do RG do responsável]
+
+# Para certificados utilizados no SSA o  NIS do Responsável precisa de 11 digitos sem mascara.
+NIS_RESP=[Substituir pelo NIS (PIS/PASEP) do responsável]
+
