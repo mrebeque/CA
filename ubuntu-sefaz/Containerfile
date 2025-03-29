@@ -1,0 +1,10 @@
+FROM ubuntu:24.04
+SHELL ["/bin/bash", "-c"]
+USER root
+### Environment variables start   
+WORKDIR /opt
+RUN apt-get update && \
+    apt-get install -y vim openssl attr dos2unix passwd nginx php-fpm php-mysql php-cli php-curl php-gd php-mbstring php-xml php-zip file unzip wget
+#COPY ./init.sh  /opt/
+#ENTRYPOINT ["/bin/bash","-c","/opt/init.sh"]
+

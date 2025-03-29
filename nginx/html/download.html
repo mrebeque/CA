@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solicitar Nome de Arquivo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            min-height: 100vh; /* Garante que o body ocupe pelo menos a altura da tela */
+            display: flex;
+            align-items: center; /* Centraliza verticalmente */
+        }
+        .container {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        .file-requirements {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+<body>
+    <div class="container">
+        <h1> Envio de requisicao de certificados. </h1>
+
+        <form id="upload"  action="/upload.php" method="post" enctype="multipart/form-data"  target="_self" >
+            <div class="form-group">
+                <input type="file" name="file">
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+
+        <div class="file-requirements">
+            <p><strong>Requisitos para o nome do arquivo:</strong></p>
+            <ul>
+                <li>Use apenas letras, números, underscores (_) ou hífens (-)</li>
+                <li>O arquivo tamanho máximo permitido por arquivo é de 1MB</li>
+                <li>Inclua a extensão do arquivo (ex: .req)</li>
+            </ul>
+        </div>
+    </div>
+
+   <script>
+
+        document.addEventListener("DOMContentLoaded", function() {
+            const form = document.getElementById("upload");
+            // Limpa após enviar
+            form.addEventListener("submit", function(event) {
+                event.preventDefault();
+                alert("Dados enviados!");
+                form.reset();
+            });
+        });
+            
+        window.onload = function() {
+           document.getElementById('file').value = '';
+        }       
+
+        document.getElementById('fileForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const fileName = document.getElementById('fileName').value;
+             const file = fileInput.files[0];
+
+                                    if (!file) {
+                                        alert('Por favor, selecione um arquivo!');
+                                        return;
+                                    }             
+
+            // Validação simples do nome do arquivo
+            if (!fileName.match(/^[\w\-]+\.[a-zA-Z0-9]+$/)) {
+                alert('Por favor, insira um nome de arquivo válido!');
+                return;
+            }
+
+                                    if (!file.name.toLowerCase().endsWith('.req')) {
+                                        alert('Por favor, selecione um arquivo com extensão .req');
+                                        return;
+                                    }
+                                                
+                                    if (file.size > 1024 * 1024) { // 5MB
+                                        alert('O arquivo é muito grande. Tamanho máximo: 1MB');
+                                        return;
+                                    }
+        });
+    </script>
+</body>
+</html>
