@@ -1,4 +1,4 @@
-FROM ubuntu-ca:1.0
+FROM localhost/ubuntu-ca:1.0
 SHELL ["/bin/bash", "-c"]
 USER root
 
