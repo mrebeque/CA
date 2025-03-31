@@ -24,7 +24,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 				$uploadFile = $uploadDir . '/' . $nomeArquivo;
 				if (move_uploaded_file($_FILES['file']['tmp_name'], $uploadFile)) {
 					$retorno = 'Location: ' . $urlCertificado;
-					sleep(3);
+					sleep(5);
 				} else {
 		 			$param = ['status' => 'erro','arquivo' => $nomeArquivo,'descricao' => 'Erro: Não foi possivel realizar o upload.'];			
 				  $retorno = 'Location: upload.html?' . http_build_query($param);
