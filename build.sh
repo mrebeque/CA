@@ -1,3 +1,3 @@
 export BUILDAH_FORMAT="docker"
-sudo docker build -f Containerfile -t ca-manager:3.0 .
+sudo docker build -f Containerfile --format=docker -t ca-manager:3.0 .
      

@@ -13,7 +13,7 @@ sudo docker run -d \
   -v templates_solicitacoes:/opt/ca/templates \
   -v ca_ativa:/opt/ca/ca-ativa \
   -v bundle:/opt/ca/bundle \
-  ca-manager:3.0
+  localhost/ca-manager:3.0
   
 sleep 2  
 sudo docker logs ca-manager
