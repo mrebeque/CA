@@ -1,5 +1,8 @@
 #!/bin/bash
 #
+
+. resources/resource.env
+
 HOME=$(pwd)
 mkdir -p {$WORKCA/storage/autoridades,$WORKCA/storage/bundle,$WORKCA/storage/ca-ativa,$WORKCA/storage/emitidos, \
          $WORKCA/storage/processadas,$WORKCA/storage/solicitacoes,$WORKCA/storage/templates,$WORKCA/storage/usuarios}
