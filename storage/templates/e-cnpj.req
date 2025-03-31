@@ -1,29 +1,57 @@
 # Tipo do certificado solicitado.
 TIPO=ECNPJ
 
-MUNICIPIO=[Substituir pelo nome do município da pessoa jurídica]
-RAZAO_SOCIAL=[Subistituir pela razão social da pessoa jurídica]
-DEPARTAMENTO=[Subistituir pela uniadade da origanização que fez o pedido do certificado]
+# Campo Opcional
+#Substituir pelo nome do município da pessoa jurídica
+MUNICIPIO=
 
+# Campo Opcional
+# Subistituir pela razão social da pessoa jurídica
+RAZAO_SOCIAL=
+
+# Campo Opcional
+# Subistituir pela uniadade da origanização que fez o pedido do certificado
+DEPARTAMENTO=
+
+# Campo Obrigatório
 # Para certificados utilizados no SSA o  CNPJ precisa de 14 digitos sem mascara.
-CNPJ=[Subistituir pelo CNPJ da pessoal juridica]
-EMAIL=[Substituir pelo Email de contato da pessoal juridica]
+# Subistituir pelo CNPJ da pessoal juridica
+CNPJ=
 
+# Campo opcional
+#Substituir pelo Email de contato da pessoal juridica
+EMAIL=
+
+# Campo opcional
 # Para certificados utilizados no SSA o  INSS da PJ precisa de 12 digitos sem mascara.
-INSS=[substituir pelo INSS da pessoal juridica]
+# Substituir pelo INSS da pessoal juridica
+INSS=
 
+# Campo Obrigatório
 # Para certificados utilizados no SSA  CPF do Responsável precisa de 11 digitos sem mascara.
-CPF_RESP=[Substituir pelo CPF do responsável pelo certificado da pessoal juridica]
+# Substituir pelo CPF do responsável pelo certificado da pessoal juridica
+CPF_RESP=
 
+# Campo opcional
 # Para certificados utilizados no SSA  a data de nascimento do Responsável precisa de 8 digitos (ddmmyyyy) sem mascara.
-DT_NASCIMENTO_RESP=[Substituir pela data de nascimento do responsável pelo certificado da pessoal juridica se não existir preencher com oito zeros.] 
+# Substituir pela data de nascimento do responsável pelo certificado da pessoal juridica se não existir preencher com oito zeros.
+DT_NASCIMENTO_RESP=
 
+# Campo opcional
 # Para certificados utilizados no SSA o  RG do Responsável precisa de 15 digitos sem mascara.
-RG_RESP=[Substituir pelo RG do responsável pelo certificado da pessoal juridica]
+# Substituir pelo RG do responsável pelo certificado da pessoal juridica
+RG_RESP=
 
-ORGAO_RG_RESP=[Substituir pela SIGLA do órgão emissor do RG do responsável]
-UF_RG_RESP=[Substituir pela UF do órgão emissor do RG do responsável]
+# Campo opcional
+# Substituir pela SIGLA do órgão emissor do RG do responsável
+ORGAO_RG_RESP=
 
+# Campo opcional
+#Substituir pela UF do órgão emissor do RG do responsável
+UF_RG_RESP=
+
+# Campo opcional
 # Para certificados utilizados no SSA o  NIS do Responsável precisa de 11 digitos sem mascara.
-NIS_RESP=[Substituir pelo NIS (PIS/PASEP) do responsável]
+# Substituir pelo NIS (PIS/PASEP) do responsável
+NIS_RESP=
 

@@ -2,10 +2,8 @@
 # Nome: gerarCertificadoEcpfSefaz.sh  
 # Sintaxe: gerarCertificadoEcpfSefaz.sh  <NOme do arquivo da solicitação>
 # Exemplo: gerarCertificadoEcpfSefaz.sh  /work/ca/solicitacoes/11806650746-cert.req
-#. "$DIR_RESOURCES"/env.sh
 
 arquivo="$1"
-
 if [[ $(obterTipoCertificado.sh $arquivo) != "ECPF" ]]; then
   echo "O Tipo do certificado solicitado é inválido. Tipos válidos: ECPF / ECNPJ / SERVER-WEB / CA"
   exit 1
@@ -34,7 +32,6 @@ cp -p "$template_ecpf_sefaz" "$arq_configuracao"
 cp -p $arquivo "$dir_certficado"
 
 arq_request="$dir_certficado"/"$nome_certificado".req
-
 while IFS='=' read -r chave valor; do
 	# Ignora linhas vazias e comentários (que começam com #)
 	if [[ -n "$chave" && "$chave" != \#* ]]; then
@@ -66,6 +63,22 @@ while IFS='=' read -r chave valor; do
 	fi
 done < "$arq_request"
 
+validarDadosECPF.sh "$ecpf_municipio" \
+                         "$ecpf_nome" \
+                         "$ecpf_cpf" \
+                         "$ecpf_email" \
+                         "$ecpf_data_nascimento" \
+                         "$ecpf_rg" \
+                         "$ecpf_orgao_rg" \
+                         "$ecpf_uf_rg" \
+                         "$ecpf_nis" \
+                         "$ecpf_inss"
+codRet=$?
+if [ $codRet -gt 0 ]; then
+  gravarLog.sh "Erro na validação dos dados do formulário de solicitação ." "ERROR" "" 
+  exit $codRet
+fi                          
+
 atualizarConfiguracaoECPF.sh "$ecpf_municipio" \
                          "$ecpf_nome" \
                          "$ecpf_cpf" \
@@ -78,22 +91,19 @@ atualizarConfiguracaoECPF.sh "$ecpf_municipio" \
                          "$ecpf_inss" \
                          "$arq_configuracao" 
 codRet=$?
-
 if [ $codRet -gt 0 ]; then
   gravarLog.sh "Erro na construção do arquivo de configuração $arq_configuracao ." "ERROR" "" 
-#  echo "Erro na construção do arquivo de configuração $arq_configuracao ." 
+  #  echo "Erro na construção do arquivo de configuração $arq_configuracao ." 
   exit $codRet
 fi 
 
 gerarCertificado.sh "$dir_certficado" "$nome_certificado" "$arq_configuracao"
 codRet=$?
-
 if [ $codRet -gt 0 ]; then
   gravarLog.sh "Erro na geração do certificado $nome_certificado ." "ERROR" "" 
-#  echo "Erro na geração do certificado $nome_certificado ." 
+  #  echo "Erro na geração do certificado $nome_certificado ." 
   exit $codRet
 fi 
-
 
 exit 0
 

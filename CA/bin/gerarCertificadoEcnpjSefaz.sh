@@ -72,6 +72,24 @@ while IFS='=' read -r chave valor; do
 	fi
 done < "$arq_request"
 
+validarDadosECNPJ.sh  "$ecnpj_municipio" \
+                         "$ecnpj_razao_social" \
+                         "$ecnpj_departamento" \
+                         "$ecnpj_cnpj" \
+                         "$ecnpj_email" \
+                         "$ecnpj_inss" \
+                         "$ecnpj_cpf_resp" \
+                         "$ecnpj_dt_nascimento_resp" \
+                         "$ecnpj_rg_resp" \
+                         "$ecnpj_orgao_rg_resp" \
+                         "$ecnpj_uf_rg_resp" \
+                         "$ecnpj_nis_resp"
+codRet=$?
+if [ $codRet -gt 0 ]; then
+  gravarLog.sh "Erro na validação dos dados do formulário de solicitação ." "ERROR" "" 
+  exit $codRet
+fi                          
+
 atualizarConfiguracaoECNPJ.sh "$ecnpj_municipio" \
                          "$ecnpj_razao_social" \
                          "$ecnpj_departamento" \
@@ -86,21 +104,16 @@ atualizarConfiguracaoECNPJ.sh "$ecnpj_municipio" \
                          "$ecnpj_nis_resp" \
                          "$arq_configuracao" 
 codRet=$?
-
 if [ $codRet -gt 0 ]; then
-
   gravarLog.sh "Erro na construção do arquivo de configuração $arq_configuracao ." "ERROR" "" 
-##  echo "Erro na construção do arquivo de configuração $arq_configuracao ." 
   exit $codRet
 fi 
 
 gerarCertificado.sh "$dir_certficado" "$nome_certificado" "$arq_configuracao"	
 codRet=$?
-
 if [ $codRet -gt 0 ]; then
 
   gravarLog.sh "Erro na geração do certificado $nome_certificado ." "ERROR" "" 
-  #echo "Erro na geração do certificado $nome_certificado ." 
   exit $codRet
 fi 
 

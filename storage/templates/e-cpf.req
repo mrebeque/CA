@@ -1,24 +1,50 @@
 # Tipo do certificado solicitado.
+
+{{DT_NASCIMENTO}}{{CPF}}{{NIS}}{{RG}}{{UF_RG}}
+
 TIPO=ECPF
-MUNICIPIO=[Substituir pelo nome do município da pessoa fisica]
-NOME=[Subistituir pela razão social da pessoa fisica]
 
+# Campo opcional
+# Substituir pelo nome do município da pessoa fisica
+MUNICIPIO=
 
-# Para certificados utilizados no SSA o CPF  precisa de 11 digitos sem mascara.de
-CPF=[Substituir pelo CPF do responsável pelo certificado da pessoal fisica]
+# Campo obrigatório
+# Subistituir pela razão social da pessoa fisica
+NOME=
 
-EMAIL=[Substituir pelo Email de contato da pessoal fisica]
+# Campo obrigatório
+# Para certificados utilizados no SSA o CPF  precisa de 11 digitos sem mascara
+# Substituir pelo CPF do responsável pelo certificado da pessoal fisica
+CPF=
 
+# Campo opcional
+# Substituir pelo Email de contato da pessoal fisica
+EMAIL=
+
+# Campo opcional
 # Subistituir pela data de nascimento da pessoal física no formato yyyymmdd sem mascara.
-DT_NASCIMENTO=07072007
+DT_NASCIMENTO=
 
+# Campo opcional
 # Para certificados utilizados no SSA o RG  precisa de 15 digitos sem mascara.
-RG=[Substituir pelo RG da pessoal fisica]
-ORGAO_RG=[Substituir pela SIGLA do órgão emissor do RG da pessoal fisica]
-UF_RG=Substituir pela UF do órgão emissor do RG da pessoal fisica]
+# Substituir pelo RG da pessoal fisica
+RG=
 
-#NUMERO DO SEGURO SOCIAL (PIS / PASEP) da pessoal fisica precisa de 11 digitos sem mascara.
-NIS=[Substituir pelo NIS (PIS/PASEP) da pessoal fisica
+# Campo opcional
+# Substituir pela SIGLA do órgão emissor do RG da pessoal fisica
+ORGAO_RG=
 
+# Campo opcional
+# Substituir pela UF do órgão emissor do RG da pessoal fisica
+UF_RG=
+
+# Campo opcional
+# NUMERO DO SEGURO SOCIAL (PIS / PASEP) da pessoal fisica precisa de 11 digitos sem mascara.
+# Substituir pelo NIS (PIS/PASEP) da pessoal fisica
+NIS=
+
+# Campo opcional
 # NUMERO DO BENEFICIO (INSS) da pessoal fisica precisa de 12 digitos sem mascara.
-INSS=[substituir pelo INSS da pessoal fisica]
+# Substituir pelo INSS da pessoal fisica
+INSS=
+

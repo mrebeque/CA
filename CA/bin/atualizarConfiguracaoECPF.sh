@@ -1,5 +1,4 @@
 #!/bin/bash
-# . "$DIR_RESOURCES"/env.sh
 
 MUNICIPIO=${1}
 NOME=${2}

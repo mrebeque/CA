@@ -1,5 +1,8 @@
 # Tipo do certificado solicitado.
 TIPO=SERVER-WEB
+
+# Para este tipo de certificado todos os campos são obrigatórios
+#
 MUNICIPIO=[Substituir pelo nome do município da pessoa jurídica]
 ORGANIZACAO=[Subistituir pelo nome da organização que hospeda o servidor web]
 DEPARTAMENTO=[Subistituir pela uniadade da origanização responsável pelo servidor web]

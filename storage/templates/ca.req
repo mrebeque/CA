@@ -1,6 +1,8 @@
 # Tipo do certificado solicitado.
 TIPO=CA
-
+#
+# Para este tipo de certificado todos os campos são obrigatórios
+#
 MUNICIPIO=[Substituir pelo nome do município da pessoa jurídica]
 ORGANIZACAO=[Subistituir pela razão social da pessoa jurídica]
 DEPARTAMENTO=[Subistituir pela unidade da origanização que fez o pedido do certificado]
