@@ -6,7 +6,6 @@ sudo docker run -d \
   --hostname server-ca \
   --rm \
   -p 8080:80 \
-  -p 8443:443 \
   -v solicitacoes_certificados:/opt/ca/solicitacoes \
   -v solicitacoes_processadas:/opt/ca/processadas \
   -v certificados_emitidos:/opt/ca/emitidos \
