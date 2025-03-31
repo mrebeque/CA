@@ -33,5 +33,5 @@ COPY --chown=www-data:www-data --chmod=775  ./nginx/html/         $DOC_ROOT/html
 ### Expose the HTTP/HTTPS port
 EXPOSE 80 443
 
-# ENTRYPOINT ["sleep", "infinity"]   
-ENTRYPOINT ["/bin/bash", "-c", "/init.sh"]
+ENTRYPOINT ["sleep", "infinity"]   
+#llENTRYPOINT ["/bin/bash", "-c", "/init.sh"]

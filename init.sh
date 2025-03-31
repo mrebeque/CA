@@ -1,6 +1,6 @@
 #!/bin/bash
 
-. $WORKCA/resources/resource.
+. $WORKCA/resources/resource.env
 $WORKNGINX/initNGINX.sh  
 
 su - www-data -c "$WORKCA/startCA.sh $WORKCA/resources/resource.env" 

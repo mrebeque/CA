@@ -7,10 +7,12 @@
 
 . $WORKCA/resources/resource.env
 
+DATA_HORA_ATUAL=$(date +"%d/%m/%Y %H:%M:%S")
 HTTPADDR_DATA=https://www.gov.br/iti/pt-br/assuntos/repositorio/certificados-das-acs-da-icp-brasil-arquivo-unico-compactado
 HTTPADDR=http://acraiz.icpbrasil.gov.br/credenciadas/CertificadosAC-ICP-Brasil/ACcompactado.zip
 PATH_CA_SEFAZRJ=$DIR_CA_ATIVA/sefazrj-ca.crt
 PATH_DIST_BUNDLE=$DIR_CA_ATIVA/bundle-icp-brasil.crt
+ARQ_REG_UPDATE=$DIR_CA_ATIVA/UPD_BUNLE_$DATA_HORA_ATUAL.txt
 
 DEST=./icpbrasil
 FILE=bundle-icp-brasil.crt
@@ -51,12 +53,11 @@ if [[ "$FLG_PROCESSA" == "1" ]]; then
   # Adicioanr certificado CA SEFAZRJ
   openssl x509 -text -in $PATH_CA_SEFAZRJ >> $FILE
 
-  cp $FILE ..
   cp $FILE $PATH_DIST_BUNDLE  
   
-  setfattr -n user.version_data -v "$DATA_WEBFILE" ../$FILE
   setfattr -n user.version_data -v "$DATA_WEBFILE" $PATH_DIST_BUNDLE
-      
+  
+  echo "Bundle atualizado às: $DATA_HORA_ATUAL" > $ARQ_REG_UPDATE
   rm -r ../${DEST}
 fi
 
