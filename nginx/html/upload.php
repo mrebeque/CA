@@ -6,7 +6,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $nomeSemExtensao = pathinfo($nomeArquivo, PATHINFO_FILENAME);
     $extensao = strtolower(pathinfo($nomeArquivo, PATHINFO_EXTENSION));
 
-    $urlCertificado = ' {{URL_CERTIFICADO}}' . '/' . $nomeSemExtensao . '/';
+    $urlCertificado = '{{URL_CERTIFICADO}}' . '/' . $nomeSemExtensao . '/';
     $uploadDir = '{{DIR_SOLICITACOES}}';
     
     $extensoesPermitidas = ['req'];    

@@ -16,11 +16,11 @@ RUN ln -sf /bin/bash /bin/sh && \
     chmod 775 {$WORKCA/bin,$WORKCA/resources,$WORKCA/templates_csr,$DOC_ROOT/html} 
 
 COPY --chmod=755 ./init.sh  / 
+COPY --chown=www-data:www-data --chmod=664 ./resources/    $WORKCA/resources
 COPY --chown=www-data:www-data --chmod=755 ./CA/startCA.sh $WORKCA/
 COPY --chown=www-data:www-data --chmod=755 ./CA/confCA.sh  $WORKCA/
 COPY --chown=www-data:www-data --chmod=755 ./CA/initCA.sh  $WORKCA/
 COPY --chown=www-data:www-data --chmod=755 ./CA/bin/       $WORKCA/bin
-COPY --chown=www-data:www-data --chmod=664 ./CA/resources/ $WORKCA/resources
 COPY --chown=www-data:www-data --chmod=664 ./CA/templates_csr/ $WORKCA/templates_csr
 RUN chown -R www-data: {$WORKCA,$DOC_ROOT} 
 

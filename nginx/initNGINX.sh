@@ -14,7 +14,7 @@ sed -e "s|{{DIR_SOLICITACOES}}|$DIR_SOLICITACOES|g" \
        "$ARQ_NGINX_UPLOAD" > "$WORKNGINX"/temp.txt && \
      mv "$WORKNGINX"/temp.txt "$ARQ_NGINX_UPLOAD"
 chown www-data: "$ARQ_NGINX_UPLOAD"
-chmod 775 "$ARQ_NGINX_CONF" 
+chmod 775 "$ARQ_NGINX_UPLOAD"
 
 
 /etc/init.d/php8.3-fpm start
